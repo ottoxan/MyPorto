@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    background-color: #12232e;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    transition: 0.5s;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #12232e; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #203647; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 1px solid rgb(20, 197, 220); /* creates padding around scroll thumb */
+}
+.logo {
+    text-decoration: none;
+    color: rgb(20, 197, 220);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    transition: 0.5s;
+}
+
+.logo span {
+    transition: 0.5s;
+}
+
+.logo span:hover {
+    text-shadow: 0 0 30px rgb(20, 197, 220), 0 0 40px rgb(20, 197, 220),
+        0 0 60px rgb(20, 197, 220), 0 0 90px rgb(20, 197, 220),
+        0 0 1200px rgb(20, 197, 220);
+}
+
+.navg a {
+    color: rgb(20, 197, 220);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding-left: 30px;
+    transition: 0.5s;
+}
+
+.navg a:hover {
+    text-shadow: 0 0 20px rgb(20, 197, 220), 0 0 40px rgb(20, 197, 220),
+        0 0 60px rgb(20, 197, 220), 0 0 90px rgb(20, 197, 220),
+        0 0 1200px rgb(20, 197, 220);
+}
+
+.main {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://wallpaperaccess.com/full/2825826.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    user-select: none;
+}
+
+.main div h2 span {
+    color: #eefbfb;
+    font-size: 1.4em;
+    font-weight: 700;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.main div h2 span:hover {
+    color: rgb(20, 197, 220);
+    font-size: 2em;
+    text-shadow: 0 0 20px rgb(20, 197, 220), 0 0 40px rgb(20, 197, 220),
+        0 0 60px rgb(20, 197, 220), 0 0 90px rgb(20, 197, 220),
+        0 0 1200px rgb(20, 197, 220);
+}
+
+.n {
+    color: #eefbfb;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.main h3 {
+    color: #eefbfb;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+h3 span {
+    transition: 0.5s;
+}
+
+.main h3 span:hover {
+    color: rgb(20, 197, 220);
+    font-size: 2em;
+    text-shadow: 0 0 20px rgb(20, 197, 220), 0 0 40px rgb(20, 197, 220),
+        0 0 60px rgb(20, 197, 220), 0 0 90px rgb(20, 197, 220),
+        0 0 1200px rgb(20, 197, 220);
+}
+
+.main-btn {
+    color: rgb(20, 197, 220);
+    background-color: #12232ea9;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.9375em 2.1075em;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.5s;
+}
+
+.main-btn:hover {
+    background-color: #12232e;
+    transform: scale(1.1);
+    border: solid 2px;
+}
+
+.social-icons a {
+    color: #eefbfb;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.1s;
+}
+
+.social-icons a:hover {
+    font-size: 2em;
+    text-shadow: 0 0 20px rgb(20, 197, 220), 0 0 40px rgb(20, 197, 220),
+        0 0 60px rgb(20, 197, 220), 0 0 90px rgb(20, 197, 220),
+        0 0 1200px rgb(20, 197, 220);
+}
+
+.cards {
+    background-color: #12232e;
+    padding: 50px;
+}
+
+.cards .contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    color: rgb(20, 197, 220);
+    font-size: 2.2em;
+    font-weight: 1000;
+    margin-bottom: 50px;
+}
+
+.content {
+    position: relative;
+    width: 20em;
+    height: 25em;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.content .card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 203647;
+    clip-path: circle(100px at center);
+    transition: 0.5s;
+}
+
+.content:hover .card:before {
+    background: rgb(20, 197, 220);
+    clip-path: circle(500px at center);
+}
+
+.content i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10em;
+    position: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.content:hover i {
+    position: absolute;
+    top: 30%;
+}
+
+.content .info {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    top: 50%;
+    padding: 20px 20px 20px 20px;
+    transition: 0.5s;
+    justify-content: center;
+    opacity: 0;
+    text-align: center;
+    user-select: none;
+    font-weight: 700;
+    color: white;
+}
+
+.content h3 {
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.content:hover .info {
+    top: 25%;
+    opacity: 1;
+}
+
+.projects {
+    background-color: #0c171f;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.projects .title {
+    padding-top: 50px;
+}
+.projects .content-pro {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-cards {
+    min-height: 14em;
+    height: 18em;
+    width: 20em;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: #12232e;
+    margin: 10px;
+    border: solid 2px #12232e;
+}
+
+.project-cards:hover {
+    min-height: 20em;
+    background: rgb(20, 197, 220);
+    border: solid 2px rgb(20, 197, 220);
+}
+
+.project-img img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 1em;
+    color: white;
+}
+
+.project-title {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: white;
+}
+
+.more-details:hover {
+    color: #12232e;
+}
