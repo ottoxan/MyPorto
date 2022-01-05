@@ -159,6 +159,18 @@ h3 span {
         0 0 1200px rgb(20, 197, 220);
 }
 
+.cards h2 span {
+    user-select: none;
+    transition: 0.5s;
+}
+
+.cards h2 span:hover {
+    text-shadow: 0 0 20px rgb(20, 197, 220), 0 0 40px rgb(20, 197, 220),
+        0 0 60px rgb(20, 197, 220), 0 0 90px rgb(20, 197, 220),
+        0 0 1200px rgb(20, 197, 220);
+    font-size: 1.2em;
+}
+
 .cards {
     background-color: #12232e;
     padding: 50px;
@@ -270,6 +282,19 @@ h3 span {
 .projects .title {
     padding-top: 50px;
 }
+
+.projects .title span {
+    user-select: none;
+    transition: 0.5s;
+}
+
+.projects .title span:hover {
+    text-shadow: 0 0 20px rgb(20, 197, 220), 0 0 40px rgb(20, 197, 220),
+        0 0 60px rgb(20, 197, 220), 0 0 90px rgb(20, 197, 220),
+        0 0 1200px rgb(20, 197, 220);
+    font-size: 1.2em;
+}
+
 .projects .content-pro {
     justify-content: center;
     display: flex;
