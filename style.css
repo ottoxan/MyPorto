@@ -246,7 +246,6 @@ h3 span {
     justify-content: center;
     opacity: 0;
     text-align: center;
-    user-select: none;
     font-weight: 700;
     color: white;
 }
@@ -323,4 +322,21 @@ h3 span {
 
 .more-details:hover {
     color: #12232e;
+}
+
+footer {
+    background-color: #203647;
+    justify-content: space-between;
+    color: white;
+    padding: 1.5em;
+    display: flex;
+}
+
+.footer-title {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.footer-title span {
+    color: rgb(20, 197, 220);
 }
