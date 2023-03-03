@@ -381,3 +381,33 @@ footer {
     color: rgb(20, 197, 220);
 }
 
+@media (max-width: 1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navg a {
+        padding-left: 20px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    .main{
+        padding: 80px 50px;
+    }
+
+    .main div h2 span{
+        font-size: 1em;
+    }
+
+    .social-icons a {
+        padding-right: 20px;
+    }
+
+    footer{
+        padding: 0.8em;
+    }
+
+}
