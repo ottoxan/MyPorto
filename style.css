@@ -74,7 +74,7 @@ body::-webkit-scrollbar-thumb {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("/1Otto/Portofolio/img/background.gif");
+    background: url("img/background.gif");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -349,6 +349,21 @@ h3 span {
     color: #12232e;
 }
 
+.contacts {
+    position: relative;
+    width: 20em;
+    height: 20em;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    overflow: hidden;
+    justify-content: center;
+}
+
 footer {
     background-color: #203647;
     justify-content: space-between;
@@ -365,3 +380,4 @@ footer {
 .footer-title span {
     color: rgb(20, 197, 220);
 }
+
