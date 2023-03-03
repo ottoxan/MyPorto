@@ -404,10 +404,15 @@ footer {
 
     .social-icons a {
         padding-right: 20px;
+        font-size: 1.4em;
     }
 
     footer{
         padding: 0.8em;
+    }
+
+    .footer-title{
+        font-size: 0.7em;
     }
 
 }
